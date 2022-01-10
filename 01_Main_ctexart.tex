@@ -1,0 +1,134 @@
+\documentclass[UTF-8, a4paper, 12pt]{ctexart}
+
+\usepackage[left=1in,right=1in,top=1.00in,bottom=1.00in]{geometry}% 页边距
+\usepackage[colorlinks,linkcolor=blue,anchorcolor=blue,citecolor=green,CJKbookmarks=True]{hyperref}
+\usepackage{CJK,CJKnumb}
+\usepackage{indentfirst}        % 首行缩进宏包
+\usepackage{latexsym,bm}        % 处理数学公式中和黑斜体的宏包
+\usepackage{amsmath,amssymb}     % AMSLaTeX宏包 用来排出更加漂亮的公式
+\usepackage{graphicx}
+\usepackage{cases}
+\usepackage{pifont}
+\usepackage{txfonts}
+\usepackage{subfigure}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[subfigure]{tocloft}     % 模板中用了subfigure，不加此选项会产生冲突
+\usepackage{inconsolata}
+\usepackage{enumerate}
+\usepackage{tcolorbox}% 文本框宏包
+\usepackage{subfiles} %分章节编写
+\CTEXsetup[format={\Large\bfseries}]{section}%设置章标题字号为Large，居左
+\zihao{-4}\linespread{1.5}\selectfont
+\renewcommand{\theequation}{\arabic{section}-\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
+\renewcommand{\thetable}{\arabic{section}-\arabic{table}}
+%\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand\contentsname{\centerline{Content}} % 自定义目录格式
+\renewcommand\listfigurename{{\centerline{Figures}}}
+\renewcommand\listtablename{{\centerline{Tables}}}
+\newcommand{\song}{\CJKfamily{song}}    % 宋体(Windows自带simsun.ttf)
+\renewcommand{\abstractname}{\textbf{\large {摘\quad 要}}} %更改摘要二字的样式
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% 设置列表行距
+\usepackage{enumitem}
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+%%%%%%%%%%%%%%%%%%%%%%%
+% -- text font --
+% compile using Xelatex
+%%%%%%%%%%%%%%%%%%%%%%%
+% -- 中文字体 --
+%\setCJKmainfont{Microsoft YaHei}  % 微软雅黑
+%\setCJKmainfont{YouYuan}  % 幼圆
+%\setCJKmainfont{NSimSun}  % 新宋体
+%\setCJKmainfont{KaiTi}    % 楷体
+%\setCJKmainfont{SimSun}   % 宋体
+%\setCJKmainfont{FangSong}   % 仿宋
+%\setCJKmainfont{SimHei}   % 黑体
+ 
+% -- 英文字体 --
+%\setmainfont{Times New Roman}
+%\setmainfont{DejaVu Sans}
+%\setmainfont{Latin Modern Mono}
+%\setmainfont{Consolas}
+\setmainfont{CMU Serif}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%  设置水印
+%\usepackage{draftwatermark}         % 所有页加水印
+%\usepackage[firstpage]{draftwatermark} % 只有第一页加水印
+%\SetWatermarkText{Copyright(C) 2021. by HU S K}           % 设置水印内容
+% \SetWatermarkText{\includegraphics{fig/ZJDX-WaterMark.eps}}         % 设置水印logo
+%\SetWatermarkLightness{00.9}             % 设置水印透明度 0-1
+%\SetWatermarkScale{0.4}                   % 设置水印大小 0-1
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 用来设置附录中代码的样式
+% 头文件
+\usepackage{listings} 
+\usepackage{fontspec}
+\setmonofont{Consolas}
+\usepackage{verbatim}
+\begin{comment}
+	\begin{lstlisting}[
+		language = matlab, numbers=left, 
+		numberstyle=\tiny,keywordstyle=\color{blue!70},
+		commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,
+		rulesepcolor=\color{red!20!green!20!blue!20},
+		basicstyle=\ttfamily,
+		]
+		
+	\end{lstlisting}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 自定义标题形式
+%\CTEXsetup[format={\Large\bfseries}]{section}				%设置章标题字号为Large，居左
+%\CTEXsetup[number={\chinese{section}}]{section}			%section形式改为一,二,三,..
+%\CTEXsetup[name={(,)}]{subsection}                                 
+%\CTEXsetup[number={\chinese{subsection}}]{subsection}    	%subsection形式改为(一,二,三,...)
+%\CTEXsetup[number=\arabic{subsubsection}]{subsubsection}	%subsubsection形式改为1，2，3，...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{\bfseries \Huge  }
+\author{}
+\date{}
+
+\begin{document}
+\includepdf[pages={1}]{coverpage.pdf} %% 插入封面pdf
+
+%\maketitle
+%\thispagestyle{empty}
+%\newpage
+%\thispagestyle{empty}
+\begin{comment}
+	\begin{abstract}    
+	设置摘要
+	\end{abstract}
+\end{comment}
+
+
+    
+\pagenumbering{Roman}    	% 设置页码为罗马数字
+\setcounter{page}{1}
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\pagenumbering{arabic}   	%设置页码为阿拉伯数字
+\setcounter{page}{1}        %从下面开始编页，页脚格式为导言部分设置的格式
+
+%\section{}
+%\input{}
+%\include{}
+
+\end{document}

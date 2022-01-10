@@ -1,0 +1,14 @@
+\subsubsection{代码分析比较}
+
+对\colorbox[gray]{0.9}{\texttt{Cuda\_CNN\_ptr}}中的代码进行分析。并与\colorbox[gray]{0.9}{\texttt{Seq\_CNN\_course}}中的代码进行比较，\colorbox[gray]{0.9}{\texttt{Cuda\_CNN\_ptr}}程序主要由以下几个部分组成：
+
+\begin{enumerate}
+    \item \colorbox[gray]{0.9}{\texttt{drv\_cnn}}
+    \item \colorbox[gray]{0.9}{\texttt{Activation\_layer}}
+    \item \colorbox[gray]{0.9}{\texttt{convolutional\_layer}}
+    \item \colorbox[gray]{0.9}{\texttt{pooling\_layer}}
+    \item \colorbox[gray]{0.9}{\texttt{fully\_connected\_layer}}
+    \item \colorbox[gray]{0.9}{\texttt{softmax\_layer}}
+\end{enumerate}
+
+此程序主页也是由此六大程序组成，分别为顶层程序、激活层、卷积层、池化层、全连接层和softmax层组成，其结构与\colorbox[gray]{0.9}{\texttt{Seq\_CNN\_course}}基本相同，可以认为结构基本一样，只是在每一层的具体实现上，利用了CUDA编程，利用GPU并行加速程序运行时间。

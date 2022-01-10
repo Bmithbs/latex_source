@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}C1.12 用计算机产生自协方差序列}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Question Statement}{1}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Solution}{2}{subsection.1.2}% 
+\contentsline {subsubsection}{\numberline {1.2.1}The Solution of (a)}{2}{subsubsection.1.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2}The Solution of (b)}{2}{subsubsection.1.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.3}The Solution of (c)}{4}{subsubsection.1.2.3}% 
+\contentsline {subsubsection}{\numberline {1.2.4}The Solution of (d)}{4}{subsubsection.1.2.4}% 
+\contentsline {subsubsection}{\numberline {1.2.5}The Solution of (e)}{4}{subsubsection.1.2.5}% 
+\contentsline {section}{\numberline {2}C2.20 周期图的分辨率和泄露特性}{5}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Question Statement}{5}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}The Feature of Resolution}{6}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}The Solution of (a)}{6}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}The Solution of (b)}{8}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}The Solution of (c)}{9}{subsubsection.2.2.3}% 
+\contentsline {subsubsection}{\numberline {2.2.4}The Solution of (d)}{9}{subsubsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.3}Spectral Leakage}{12}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}The Solution of (a)}{12}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}The Solution of (b)}{13}{subsubsection.2.3.2}% 
+\contentsline {subsubsection}{\numberline {2.3.3}The Solution of (c)}{13}{subsubsection.2.3.3}% 
+\contentsline {subsubsection}{\numberline {2.3.4}The Solution of (d)}{14}{subsubsection.2.3.4}% 

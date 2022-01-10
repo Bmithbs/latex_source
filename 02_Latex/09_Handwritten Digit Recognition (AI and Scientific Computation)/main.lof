@@ -1,0 +1,12 @@
+\contentsline {figure}{\numberline {2-1}{\ignorespaces 卷积神经网络和全连接神经网络的对比}}{1}{figure.1}% 
+\contentsline {figure}{\numberline {3-2}{\ignorespaces 感受野的连接和尺寸说明}}{3}{figure.2}% 
+\contentsline {figure}{\numberline {3-3}{\ignorespaces 将卷积层用全连接层的形式表示}}{5}{figure.3}% 
+\contentsline {figure}{\numberline {3-4}{\ignorespaces 扩张卷积示意图及扩张前后的叠加效果}}{6}{figure.4}% 
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Sigmoid 函数图像}}{11}{figure.5}% 
+\contentsline {figure}{\numberline {6-6}{\ignorespaces $\qopname \relax o{tanh}$函数图像}}{11}{figure.6}% 
+\contentsline {figure}{\numberline {6-7}{\ignorespaces ReLU函数图像}}{12}{figure.7}% 
+\contentsline {figure}{\numberline {6-8}{\ignorespaces 基于CPU+GPU的异构计算}}{13}{figure.8}% 
+\contentsline {figure}{\numberline {6-9}{\ignorespaces Kernel上的两层线程组织结构(2-dim)}}{15}{figure.9}% 
+\contentsline {figure}{\numberline {6-10}{\ignorespaces 损失函数的梯度下降示意图}}{17}{figure.10}% 
+\contentsline {figure}{\numberline {6-11}{\ignorespaces 学习率和损失函数的函数关系}}{17}{figure.11}% 
+\contentsline {figure}{\numberline {6-12}{\ignorespaces 循环学习率示意图}}{18}{figure.12}% 

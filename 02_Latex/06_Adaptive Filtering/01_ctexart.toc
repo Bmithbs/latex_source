@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}第3章 最小均方(LMS)算法 26题}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Question Statement}{1}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Solution}{1}{subsection.1.2}% 
+\contentsline {section}{\numberline {2}第4章 基于LMS准则的算法 13题}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Question Statement}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Solution}{4}{subsection.2.2}% 
